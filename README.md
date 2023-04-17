@@ -6,7 +6,7 @@ Project Objective
 
 Verify car damage images with  determined.ai|
 Build an automated and effective system that verifies customer photo uploads.
- Collect Car damage dataset to train classifier on the Determined.ai platform This dataset would be used to train a use a pre-trained CNN to extract features from the images and then train a classifier on those features.
+ Collect Car damage dataset to train classifier on the Determined.ai platform This dataset<a href='https://docs.google.com/spreadsheets/d/1_AI5s5mU1L5a4oQKEguKv7zlXKHBgeD3OTjonpwmLxk/edit#gid=0'>spreadsheet</a>  would be used to train a use a pre-trained CNN to extract features from the images and then train a classifier on those features.
  
 Data Sample
 
