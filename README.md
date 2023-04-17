@@ -16,9 +16,7 @@ You can also create your own spreadsheet that includes a photo for each claim in
 url	                    Type of damage
 bumper_dent.png	          bumper_dent
 bumper_scratch.png	      bumper_scratch
-url	            |Type of damage
-bumper_dent.png |	bumper_dent
-bumper_scratch.png |	bumper_scratch
+
 ![bumper dent](https://user-images.githubusercontent.com/65541080/232556800-f9acbe49-6bc7-4da2-ae6a-ce402e8df02d.png)
 
 Model Architecture
