@@ -14,9 +14,7 @@ Make your own copy of this <a href='https://docs.google.com/spreadsheets/d/1_AI5
 You can also create your own spreadsheet that includes a photo for each claim in local folder. This photo must have a local dataset so the determined ai classification model can use it.
 
 
-url        	   Type-of-damage
-
-bumper_dent.png  	bumper_dent
+url Type-of-damage bumper_dent.png  	bumper_dent
 
 ![bumper dent](https://user-images.githubusercontent.com/65541080/232556800-f9acbe49-6bc7-4da2-ae6a-ce402e8df02d.png)
 
