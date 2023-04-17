@@ -13,11 +13,10 @@ Make your own copy of this <a href='https://docs.google.com/spreadsheets/d/1_AI5
 You can also create your own spreadsheet that includes a photo for each claim in local folder. This photo must have a local dataset so the determined ai classification model can use it.
 
 
-Sure! Here is an example of what the data sample table could look like:
-
 url	                    Type of damage
 bumper_dent.png	          bumper_dent
 bumper_scratch.png	      bumper_scratch
+
 ![bumper dent](https://user-images.githubusercontent.com/65541080/232556800-f9acbe49-6bc7-4da2-ae6a-ce402e8df02d.png)
 
 Model Architecture
@@ -26,13 +25,13 @@ Our model architecture use a pre-trained CNN to extract features from the images
 
 How to Run the Training Job
 
-pip Install the Determined.ai in google colab. Clone this repository .Prepare your training data. This includes loading the CSV file , downloading the images from the folder, and preprocessing the images as needed (e.g. resizing, normalization). <a href='https://docs.google.com/spreadsheets/d/1_AI5s5mU1L5a4oQKEguKv7zlXKHBgeD3OTjonpwmLxk/edit#gid=0'> create your own copy of this spreadsheet</a> that includes a name of photo for each claim in local folder. This photo must have a local dataset so the determined ai classification model can use it.
+pip Install the Determined.ai in google colab. Clone this repository .Prepare your training data. This includes downloading the CSV file from spreadsheet , downloading the images from the folder, and preprocessing the images as needed (e.g. resizing, normalization). <a href='https://docs.google.com/spreadsheets/d/1_AI5s5mU1L5a4oQKEguKv7zlXKHBgeD3OTjonpwmLxk/edit#gid=0'> create your own copy of this spreadsheet</a> that includes a name of photo for each claim in local folder. This photo must have a local dataset so the determined ai classification model can use it.
 
 You will use that photo in a determined classification model.
  pip install --user virtualenv. 
  Set up a Determined AI cluster. You can follow the instructions on their website to set up a cluster on your preferred infrastructure.
 
-Create a PyTorch model definition. This defines the neural network architecture and training logic. You can define your model using the PyTorch framework and include the necessary layers for your image classification task.
+Create a keras model definition. This defines the neural network architecture and training logic. You can define your model using the keras framework and include the necessary layers for your image classification task.
 
 Create a Determined AI experiment. This is where you define the hyperparameters, resources, and other settings for your training run. You can use the Determined AI web UI or command-line interface to create the experiment and specify the PyTorch model definition.
 
